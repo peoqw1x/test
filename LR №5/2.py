@@ -1,0 +1,14 @@
+a, b, c = map(int, input("Введите три числа через пробел: ").split())
+result1 = a * b
+result2 = b * c
+result3 = c * a
+result4 = a ** 4
+result5 = b % c
+result6 = c // result1
+print("a * b =", result1)
+print("b * c =", result2)
+print("c * a =", result3)
+print("a ** 4 =", result4)
+print("b % c =", result5)
+print("c // (a * b) =", result6)
+print("Сумма результатов пункта 5 =", result4 + result5 + result6)
