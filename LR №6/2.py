@@ -1,0 +1,5 @@
+text = input("Введите текст: ")
+words = input("Введите две строки через пробел: ")
+word1, word2 = words.split()
+text = text.replace(word1, word2)
+print(text)
